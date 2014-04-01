@@ -1,0 +1,48 @@
+body {
+	font-family: 'Dosis';
+}
+
+h1 {
+	text-align:center;
+}
+
+#play {
+	text-align: center;
+}
+
+#container {
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+	width:100%;
+}
+
+#randomize,
+#theme {
+	border: 1px solid #8E8E8E;
+	border-radius: 9px;
+	background-color: #7BF767;
+	cursor: pointer;
+	display: inline-block;    
+	padding: 20px;
+	margin: 20px;
+	width: 200px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-weight:700;
+	font-size: 28px;
+}
+
+#randomize:hover,
+#theme:hover {
+	background-color: #22e500;
+}
+
+#randomize:active,
+#theme:active {
+	background-color: #1aaf00;
+}
